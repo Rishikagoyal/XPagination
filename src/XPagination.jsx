@@ -14,6 +14,7 @@ const XPagination = () => {
         setData(result.data);
       } catch (error) {
         console.error("Error fetching data:", error);
+        alert("failed to fetch data.")
       }
     };
 
