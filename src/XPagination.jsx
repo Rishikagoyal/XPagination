@@ -62,7 +62,7 @@ const XPagination = () => {
       </table>
 
       <div className="pagination">
-        <button onClick={() => handlePageChange(currentPage - 1)} disabled={currentPage === 1}>
+        <button onClick={() => handlePageChange(currentPage - 1)} disabled="">
           Previous
         </button>
         <span>{currentPage}</span>
