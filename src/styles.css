@@ -1,0 +1,54 @@
+h1{
+  position:relative;
+  left:40%;
+}
+
+table{
+  position:relative;
+  border:2px solid #229799;
+  width:1000px;
+  left:15%;
+}
+
+thead{
+  background-color:#229799;
+}
+th{
+  padding:5px;
+  color : white;
+
+}
+
+tr{
+  box-shadow: 0px 5px 10px rgb(0, 0,0, 0.5);
+}
+
+
+
+td{
+  padding:5px;
+  text-align:center;
+}
+
+.pagination{
+  position:relative;
+  left:46%;
+  margin-top:1%;
+}
+button{
+  padding:6px;
+  margin:10px;
+  background-color:#229799;
+  color:white;
+  border-radius:5px;
+  border:none;
+}
+
+span{
+  background-color:#229799;
+  padding:6px;
+  border-radius:5px;
+  display:inline-block;
+  width:10px;
+  color:white;
+}
